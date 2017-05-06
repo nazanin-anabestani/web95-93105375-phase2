@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'segoeui';
+  src: url("../../../assets/font/segoeui/SegoeUI.eot");
+  src: url("../../../assets/font/segoeui/SegoeUI.eot?#iefix") format("embedded-opentype"), url("../../../assets/font/segoeui/SegoeUI.woff2") format("woff2"), url("../../../assets/font/segoeui/SegoeUI.woff") format("woff"), url("../../../assets/font/segoeui/SegoeUI.ttf") format("truetype"), url("../../../assets/font/segoeui/SegoeUI.svg#SegoeUI") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.add-comment-item {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 53vw;
+  height: 4vw;
+  color: #fff;
+  border: none;
+  display: inline-block;
+  margin: 1vw 0vw 1vw 3vw;
+  padding: 1% 5%; }
+
+.add-comment-button-item {
+  border: none;
+  display: inline-block;
+  background-color: #fffb46;
+  color: rgba(25, 30, 25, 0.95);
+  width: 10vw;
+  height: 5.5vw;
+  margin: 1vw 0;
+  cursor: pointer; }
+  .add-comment-button-item:hover {
+    background-color: #e85656; }
+  .add-comment-button-item:focus {
+    outline: none;
+    opacity: 0.9; }
+
+.comment-item {
+  border-top: solid rgba(255, 255, 255, 0.9) 0.2px;
+  background: transparent;
+  margin: 0 3vw;
+  padding: 0;
+  width: 70vw;
+  height: auto; }
+
+.comment-text {
+  margin: 1vw 3vw 0.3vw 3vw;
+  width: 63vw;
+  display: block; }
+
+.comment-time {
+  margin: 0.2vw 3vw 1vw 3.5vw;
+  width: 15vw;
+  display: block;
+  color: #fffb46;
+  font-size: 1vw; }
+
+/*# sourceMappingURL=comment.css.map */

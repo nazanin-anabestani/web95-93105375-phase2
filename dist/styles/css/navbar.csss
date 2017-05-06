@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'segoeui';
+  src: url("../../../assets/font/segeoeui/SegoeUI.eot");
+  src: url("../../../assets/font/segeoeui/SegoeUI.eot?#iefix") format("embedded-opentype"), url("../../../assets/font/segeoeui/SegoeUI.woff2") format("woff2"), url("../../../assets/font/segeoeui/SegoeUI.woff") format("woff"), url("../../../assets/font/segeoeui/SegoeUI.ttf") format("truetype"), url("../../../assets/font/segeoeui/SegoeUI.svg#SegoeUI") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.navbar {
+  height: 4vw;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: relative;
+  box-sizing: border-box; }
+
+.navbar .navbar-link {
+  background-color: transparent;
+  border: none;
+  height: 70%;
+  top: 0;
+  margin-right: 1%;
+  font-size: 1.5vw;
+  text-align: center;
+  line-height: 100%;
+  display: block;
+  margin-top: 0.5%;
+  text-decoration: none !important; }
+
+.navbar-link a {
+  cursor: pointer;
+  line-height: 200%;
+  text-decoration: none !important;
+  color: #fffb46; }
+  .navbar-link a:hover {
+    color: #e85656; }
+
+.checked {
+  line-height: 200%;
+  color: #e85656 !important; }
+
+/*# sourceMappingURL=navbar.csss.map */

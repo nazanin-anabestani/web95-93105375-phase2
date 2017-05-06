@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'segoeui';
+  src: url("../../../assets/font/segeoeui/SegoeUI.eot");
+  src: url("../../../assets/font/segeoeui/SegoeUI.eot?#iefix") format("embedded-opentype"), url("../../../assets/font/segeoeui/SegoeUI.woff2") format("woff2"), url("../../../assets/font/segeoeui/SegoeUI.woff") format("woff"), url("../../../assets/font/segeoeui/SegoeUI.ttf") format("truetype"), url("../../../assets/font/segeoeui/SegoeUI.svg#SegoeUI") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*# sourceMappingURL=variables.css.map */

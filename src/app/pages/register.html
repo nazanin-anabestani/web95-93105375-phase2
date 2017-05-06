@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="body">
+    <div class="login-container">
+        <input type="text" ng-model="item.student_number" class="form-item" placeholder="student number">
+        <input type="text" ng-model="item.password" class="form-item" placeholder="password">
+        <input type="text" ng-model="item.first_name" class="form-item" placeholder="first name">
+        <input type="text" ng-model="item.last_name" class="form-item" placeholder="last name">
+        <input type="text" ng-model="item.email" class="form-item" placeholder="email">
+
+        <button class="login-button" ng-hide="loading" ng-click="add()">Register</button>
+      <div style="margin: 0 4vw" class="more"><a ui-sref="login">
+        already have an account? login!</a></div>
+
+    </div>
+</div>

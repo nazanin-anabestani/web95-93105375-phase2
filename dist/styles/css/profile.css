@@ -1,0 +1,300 @@
+@font-face {
+  font-family: 'segoeui';
+  src: url("../../../assets/font/segoeui/SegoeUI.eot");
+  src: url("../../../assets/font/segoeui/SegoeUI.eot?#iefix") format("embedded-opentype"), url("../../../assets/font/segoeui/SegoeUI.woff2") format("woff2"), url("../../../assets/font/segoeui/SegoeUI.woff") format("woff"), url("../../../assets/font/segoeui/SegoeUI.ttf") format("truetype"), url("../../../assets/font/segoeui/SegoeUI.svg#SegoeUI") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.offset-1, .profile-image {
+  right: 10%; }
+
+.offset-15 {
+  right: 15%; }
+
+.offset-3 {
+  right: 30%; }
+
+.offset-2 {
+  right: 20%; }
+
+.offset-4 {
+  right: 38.4%; }
+
+.offset-45, .profile-bio, .profile-resume-summary {
+  right: 45%; }
+
+.offset-5 {
+  right: 50%; }
+
+.offset-55 {
+  right: 55%; }
+
+.offset-6 {
+  right: 60%; }
+
+.size, .profile-bio, .social-item, .profile-resume-download-text, .profile-resume-summary {
+  position: relative;
+  box-sizing: border-box;
+  float: right; }
+
+.size-1 {
+  width: 9.6%; }
+
+.size-2, .profile-photos img {
+  width: 19.2%; }
+
+.size-3 {
+  width: 28.8%; }
+
+.size-35, .social-item, .message, .contact-send {
+  width: 33.6%; }
+
+.size-4, .profile-resume-download-text {
+  width: 38.4%; }
+
+.size-45, .info {
+  width: 43.2%; }
+
+.size-5, .profile-bio, .profile-resume-summary {
+  width: 48%; }
+
+.size-6 {
+  width: 57.6%; }
+
+.size-7 {
+  width: 67.2%; }
+
+.size-8 {
+  width: 76.8%; }
+
+.size-9 {
+  width: 86.4%; }
+
+.size-10 {
+  width: 96%; }
+
+@font-face {
+  font-family: 'segoeui';
+  src: url("../../../assets/font/segoeui/SegoeUI.eot");
+  src: url("../../../assets/font/segoeui/SegoeUI.eot?#iefix") format("embedded-opentype"), url("../../../assets/font/segoeui/SegoeUI.woff2") format("woff2"), url("../../../assets/font/segoeui/SegoeUI.woff") format("woff"), url("../../../assets/font/segoeui/SegoeUI.ttf") format("truetype"), url("../../../assets/font/segoeui/SegoeUI.svg#SegoeUI") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.body {
+  padding: 2%;
+  position: relative;
+  /*height: 80;*/ }
+
+.panel {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  height: auto;
+  padding: 1%;
+  margin: 1%;
+  display: inline-block;
+  position: relative;
+  color: #fff; }
+
+.dark-row, .profile-gallery {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  position: relative;
+  float: right;
+  height: auto; }
+
+.cover {
+  width: 100%;
+  position: relative;
+  height: auto;
+  right: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+.cover-image {
+  height: auto;
+  width: 100%;
+  position: relative;
+  opacity: 0.7; }
+
+.profile-name {
+  font-size: 5vw;
+  color: #fffb46;
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  left: 10%; }
+
+.body {
+  padding: 0 !important; }
+
+.profile-desc {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  float: right;
+  font-size: 1.5vw; }
+
+.profile-image {
+  position: relative;
+  margin: -10% 0;
+  float: right;
+  width: 15vw;
+  height: 15vw; }
+  .profile-image img {
+    opacity: 0.95;
+    width: 100%;
+    float: right;
+    top: 5%;
+    position: relative;
+    border-radius: 50%;
+    border: #fffb46 solid 2px; }
+
+.profile-bio {
+  position: relative;
+  margin: 4% 0;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 150%; }
+
+.profile-social {
+  background-color: transparent;
+  width: 40%;
+  height: auto;
+  float: right;
+  position: relative;
+  padding-top: 0; }
+
+.social-item {
+  right: 10%;
+  height: 6.55vw;
+  margin: 1.35vw 1vw 0 1vw;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-align: center;
+  vertical-align: middle; }
+  .social-item span {
+    position: relative;
+    height: auto;
+    margin: 5% 0;
+    padding: 5% 0;
+    line-height: 100%;
+    font-size: 4vw;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none; }
+  .social-item:hover {
+    background-color: rgba(100, 100, 100, 0.2); }
+    .social-item:hover span {
+      color: #fffb46; }
+
+.profile-resume {
+  background-color: rgba(100, 100, 100, 0.2);
+  width: 100%;
+  height: auto;
+  float: right;
+  position: relative;
+  padding: 0;
+  margin: 0; }
+
+.resume-font-size, .profile-resume-download-text, .profile-resume-summary {
+  font-size: 1.5vw; }
+
+.profile-resume-download-text {
+  position: relative;
+  right: -40%;
+  margin: 0.5% 0 2% 0;
+  padding: 0 2%;
+  color: rgba(255, 255, 255, 0.9); }
+  .profile-resume-download-text a {
+    color: #fffb46;
+    cursor: pointer; }
+    .profile-resume-download-text a:hover {
+      color: #e85656; }
+
+.profile-title {
+  font-size: 5vw;
+  color: #fffb46;
+  position: relative;
+  margin: 1% 6%; }
+
+.profile-resume-summary {
+  position: relative;
+  margin: 0.5% 0 2% 0;
+  padding: 0 2%;
+  color: #fff;
+  line-height: 150%; }
+
+.profile-contact {
+  background-color: transparent;
+  width: 60%;
+  height: auto;
+  float: left;
+  position: relative;
+  left: 5%; }
+
+.contact-item {
+  left: 11%;
+  margin: 0.5vw;
+  padding: 1% 1% 1% 10%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  color: #fff;
+  display: inline-block;
+  width: 100%; }
+
+.contact-item-inner, .info, .message, .contact-send {
+  margin: 1vw 1vw;
+  float: left; }
+  .contact-item-inner .contact-item, .info .contact-item, .message .contact-item, .contact-send .contact-item {
+    font-size: 1vw; }
+
+.info .contact-item {
+  height: 4vw; }
+
+.message .contact-item {
+  height: 9vw; }
+
+.contact-send {
+  background-color: #fffb46;
+  margin: 0.5vw;
+  font-size: 1vw;
+  padding: 1% 1% 1% 10%;
+  text-align: left;
+  position: relative;
+  border: none;
+  color: rgba(25, 30, 25, 0.95);
+  display: inline-block;
+  width: 100%;
+  height: 4vw;
+  left: 11%;
+  cursor: pointer; }
+  .contact-send:hover {
+    background-color: #e85656; }
+  .contact-send:focus {
+    outline: none;
+    opacity: 0.9; }
+
+.profile-footer {
+  padding: 2% 0;
+  width: 100%;
+  background-color: rgba(100, 100, 100, 0.2);
+  position: relative;
+  float: right;
+  height: auto; }
+
+.profile-gallery-container {
+  overflow: hidden; }
+
+.profile-photos {
+  width: 100%;
+  padding: 2% 0;
+  position: relative;
+  left: -5%; }
+  .profile-photos img {
+    position: relative;
+    float: right;
+    height: auto;
+    margin: 2% 3%;
+    right: 13%; }
+
+/*# sourceMappingURL=profile.css.map */

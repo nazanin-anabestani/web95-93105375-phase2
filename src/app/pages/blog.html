@@ -1,0 +1,56 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<div class="navbar">
+  <a ui-sref="profile">
+    <div class="navbar-link">
+      <span>profile</span>
+    </div>
+  </a>
+  <a ui-sref="timeline">
+    <div class="navbar-link">
+      <span>go to timeline</span>
+    </div>
+  </a>
+  <a ui-sref="post-add">
+    <div class="navbar-link">
+      <span>add post</span>
+    </div>
+  </a>
+  <a ui-sref="login">
+    <div class="navbar-link">
+      <span>log out</span>
+    </div>
+  </a>
+  <a>
+    <div class="navbar-link checked">
+      <span>go to blog</span>
+    </div>
+  </a>
+</div>
+
+<div class="body">
+  <div class="blog">
+    <div id="columns">
+      <div ng-repeat="item in posts">
+        <div class="blog-post">
+
+          <div class="writer">
+            <img class="writer-pic" src="../../assets/image/stock-photo-200901893.jpg">
+            <div class="writer-name">Nazanin Anabestani</div>
+          </div>
+          <img class="blog-post-image" src="../../assets/image/stock-photo-200901893.jpg" />
+          <div class="title">{{item.title}}</div>
+
+          <p>
+            {{item.summery}}
+          </p>
+
+          <div class="more"><a ui-sref="blog-view({id:item.id})"> more...</a></div>
+          <div class="blog-date">{{format(item.datetime)}}</div>
+        </div>
+      </div>
+    </div>
+    <div class="load-more" ng-show="(posts.length>0) && !isDone">
+      <a>.. load more ..</a></div>
+  </div>
+</div>

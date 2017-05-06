@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'segoeui';
+  src: url("../../../assets/font/segoeui/SegoeUI.eot");
+  src: url("../../../assets/font/segoeui/SegoeUI.eot?#iefix") format("embedded-opentype"), url("../../../assets/font/segoeui/SegoeUI.woff2") format("woff2"), url("../../../assets/font/segoeui/SegoeUI.woff") format("woff"), url("../../../assets/font/segoeui/SegoeUI.ttf") format("truetype"), url("../../../assets/font/segoeui/SegoeUI.svg#SegoeUI") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.navbar {
+  height: 5vw;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: relative;
+  box-sizing: border-box; }
+
+.navbar .navbar-link {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  border: none;
+  height: 70%;
+  top: 0;
+  margin-right: 3vw;
+  font-size: 1.5vw;
+  text-align: center;
+  line-height: 100%;
+  display: inline-block;
+  margin-top: 0.5%;
+  text-decoration: none !important;
+  float: right;
+  padding: 0.25% 1%;
+  width: 10vw; }
+  .navbar .navbar-link:hover {
+    background-color: rgba(255, 255, 255, 0.05); }
+    .navbar .navbar-link:hover span {
+      color: #e85656 !important; }
+
+.navbar-link span {
+  cursor: pointer;
+  line-height: 200%;
+  text-decoration: none !important;
+  color: #fffb46 !important; }
+
+.checked {
+  line-height: 200%;
+  background-color: rgba(255, 255, 255, 0.05) !important; }
+  .checked span {
+    color: #e85656 !important; }
+
+/*# sourceMappingURL=navbar.css.map */

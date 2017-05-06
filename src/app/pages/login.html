@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="body">
+    <div class="login-container">
+        <input type="text" ng-model="item.student_number" class="form-item" placeholder="student number">
+        <input type="text" ng-model="item.password" class="form-item" placeholder="password">
+
+        <button class="login-button" ng-hide="loading" ng-click="login()">Login</button>
+      <div style="margin: 0 4vw" class="more"><a ui-sref="register">new user? sign up!</a></div>
+    </div>
+</div>

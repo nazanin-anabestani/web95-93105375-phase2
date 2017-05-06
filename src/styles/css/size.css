@@ -1,0 +1,60 @@
+.offset-1 {
+  right: 9.6%; }
+
+.offset-15 {
+  right: 15%; }
+
+.offset-3 {
+  right: 30%; }
+
+.offset-2 {
+  right: 20%; }
+
+.offset-4 {
+  right: 38.4%; }
+
+.offset-5 {
+  right: 50%; }
+
+.offset-55 {
+  right: 55%; }
+
+.offset-6 {
+  right: 60%; }
+
+.size {
+  position: relative;
+  box-sizing: border-box;
+  float: right; }
+
+.size-1 {
+  width: 9.6%; }
+
+.size-2 {
+  width: 19.2%; }
+
+.size-3 {
+  width: 28.8%; }
+
+.size-4 {
+  width: 38.4%; }
+
+.size-5 {
+  width: 48%; }
+
+.size-6 {
+  width: 57.6%; }
+
+.size-7 {
+  width: 67.2%; }
+
+.size-8 {
+  width: 76.8%; }
+
+.size-9 {
+  width: 86.4%; }
+
+.size-10 {
+  width: 96%; }
+
+/*# sourceMappingURL=size.css.map */

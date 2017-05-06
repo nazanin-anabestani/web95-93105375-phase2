@@ -1,0 +1,63 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<div class="navbar">
+  <a ui-sref="profile">
+    <div class="navbar-link">
+      <span>profile</span>
+    </div>
+  </a>
+  <a ui-sref="timeline">
+    <div class="navbar-link">
+      <span>go to timeline</span>
+    </div>
+  </a>
+  <a ui-sref="blog">
+    <div class="navbar-link checked">
+      <span>go to blog</span>
+    </div>
+  </a>
+  <a ui-sref="post-add">
+    <div class="navbar-link">
+      <span>add post</span>
+    </div>
+  </a>
+  <a ui-sref="login">
+    <div class="navbar-link">
+      <span>log out</span>
+    </div>
+  </a>
+</div>
+<div class="body">
+  <div class="blog-view-container animated zoomIn">
+    <div class="blog-title">{{post.title}}</div>
+    <img class="blog-view-media" src="../../assets/image/stock-photo-200981407.jpg">
+
+    <div class="blog-view-writer">
+      <img class="writer-pic" src="../../assets/image/stock-photo-200919945.jpg">
+      <div class="writer-name">Nazanin Anabestani</div>
+      <div class="blog-view-date">
+        {{format(post.datetime)}}
+      </div>
+    </div>
+    <div class="blog-view-desc">
+      {{post.text}}
+    </div>
+
+    <div style="margin-top: 1vw" ng-repeat="comment in comments">
+      <div class="comment-item">
+        <div class="comment-text">{{comment.text}}</div>
+        <div class="comment-time">{{format(comment.datetime, comment)}}</div>
+      </div>
+    </div>
+    <div class="load-more" ng-show="!isDone && (comments.length>0)" ng-click="getMoreComments()">
+      <a>.. load more ..</a>
+    </div>
+
+    <input type="text" ng-model="comment.text" class="add-comment-item"
+           placeholder="write your comment!" ng-hide="addingComment">
+
+    <button class="add-comment-button-item" ng-hide="addingComment" ng-click="addComment()">Send Comment</button>
+
+
+  </div>
+</div>

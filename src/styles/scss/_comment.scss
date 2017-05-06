@@ -1,0 +1,50 @@
+@import "variables";
+
+.add-comment-item{
+  background-color: $panel-background;
+  width: 53vw;
+  height: 4vw;
+  color: $white;
+  border: none;
+  display: inline-block;
+  margin: 1vw 0vw 1vw 3vw;
+  padding: 1% 5%;
+}
+
+.add-comment-button-item{
+  border: none;
+  display: inline-block;
+  background-color: $primary;
+  color: $gray;
+  width: 10vw;
+  height: 5.5vw;
+  margin: 1vw 0;
+  cursor: pointer;
+  &:hover{
+    background-color: $dark-red;
+  }
+  &:focus{
+    outline: none;
+    opacity: 0.9;
+  }
+}
+.comment-item{
+  border-top: solid $light-white 0.2px;
+  background: transparent;
+  margin: 0 3vw;
+  padding: 0;
+  width: 70vw;
+  height: auto;
+}
+.comment-text{
+  margin: 1vw 3vw 0.3vw 3vw;
+  width: 63vw;
+  display: block;
+}
+.comment-time{
+  margin: 0.2vw 3vw 1vw 3.5vw;
+  width: 15vw;
+  display: block;
+  color: $primary;
+  font-size: 1vw;
+}

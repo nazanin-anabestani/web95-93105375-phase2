@@ -1,0 +1,78 @@
+@import "body";
+@import "variables";
+@import "size";
+@import "login";
+
+.blog-view-container{
+  @extend .panel;
+  @extend .size-8;
+  @extend .offset-1;
+  float: right;
+}
+
+.blog-view-media {
+  width: 94%;
+  margin: 1% 3%;
+  padding-bottom: 2%;
+  border-bottom: 2px solid $light-white;
+}
+
+.blog-view-writer{
+  overflow: hidden;
+  align-items: center;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 94%;
+  left: 3%;
+  position: relative;
+  padding-bottom: 2%;
+  .writer-pic{
+    width: 5vw;
+    height: 5vw;
+    margin: 5px;
+    border-radius: 50%;
+    float: left;
+  }
+
+  .writer-name{
+    margin-left: 2%;
+    margin-top: 3%;
+    margin-right: 0;
+    width: 30%;
+    font-size: 1.5vw;
+    display: inline-block;
+    color: $primary;
+  }
+}
+.blog-view-date{
+  display: inline-block;
+  overflow: hidden;
+  align-items: center;
+  margin-top: 2%;
+  color: $primary;
+  font-size: 1.5vw;
+  width: 30%;
+  float: right;
+  text-align: right;
+}
+
+.blog-title{
+  color: $white;
+  font-size: 2vw;
+  padding-bottom: 2%;
+  margin: 2% 0;
+  text-align: center;
+  border-bottom: $light-white solid;
+  width: 94%;
+  left: 3%;
+  position: relative;
+}
+
+.blog-view-desc{
+  position: relative;
+  width: 94%;
+  left: 3%;
+  font-size: 1.3vw;
+}
+

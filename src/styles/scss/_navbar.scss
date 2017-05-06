@@ -1,0 +1,47 @@
+@import "variables";
+.navbar{
+  height: 5vw;
+  width: 100%;
+  background-color: $panel-background;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.navbar .navbar-link{
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 2px;
+  border: none;
+  height: 70%;
+  top: 0;
+  margin-right: 3vw;
+  font-size: 1.5vw;
+  text-align: center;
+  line-height: 100%;
+  display: inline-block;
+  margin-top: 0.5%;
+  text-decoration: none !important;
+  float: right;
+  padding: 0.25% 1%;
+  width: 10vw;
+  &:hover{
+    background-color: $white-nav-background;
+    span{
+      color: $dark-red !important;
+    }
+  }
+
+}
+.navbar-link span{
+  cursor: pointer;
+  line-height: 200%;
+  text-decoration: none !important;
+  color: $primary !important;
+}
+
+.checked{
+  line-height: 200%;
+  span{
+    color: $dark-red !important;
+  }
+  background-color: $white-nav-background !important;
+}

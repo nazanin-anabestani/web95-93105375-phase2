@@ -1,0 +1,17 @@
+@import "_variables.scss";
+.body{
+  padding: 2%;
+  position: relative;
+  /*height: 80;*/
+}
+
+.panel{
+  background-color: $panel-background;
+  border-radius: 2px;
+  height: auto;
+  padding: 1%;
+  margin: 1%;
+  display: inline-block;
+  position: relative;
+  color: $white;
+}

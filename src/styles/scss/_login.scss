@@ -1,0 +1,42 @@
+@import "body";
+@import "variables";
+@import "animation";
+
+.form-item{
+  background-color: $panel-background;
+  width: 20vw;
+  height: 4vw;
+  color: $white;
+  border: none;
+  display: block;
+  margin: 1vw 3vw;
+  padding: 1% 5%;
+}
+
+.login-button{
+  border: none;
+  background-color: $primary;
+  color: $gray;
+  width: 23vw;
+  height: 4vw;
+  margin: 1vw 3vw;
+  cursor: pointer;
+  &:hover{
+    background-color: $dark-red;
+  }
+  &:focus{
+    outline: none;
+    opacity: 0.9;
+  }
+}
+
+.login-container{
+  background-color: $panel-background;
+  border: none;
+  padding: 3vw 1vw;
+  width: 30%;
+  height: auto;
+  left: 35%;
+  position: relative;
+  margin-top: 10%;
+}

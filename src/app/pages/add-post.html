@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<div class="navbar">
+  <a ui-sref="profile">
+    <div class="navbar-link">
+      <span>profile</span>
+    </div>
+  </a>
+  <a ui-sref="timeline">
+    <div class="navbar-link">
+      <span>go to timeline</span>
+    </div>
+  </a>
+  <a ui-sref="blog">
+    <div class="navbar-link">
+      <span>go to blog</span>
+    </div>
+  </a>
+  <a>
+    <div class="navbar-link checked">
+      <span>add post</span>
+    </div>
+  </a>
+  <a ui-sref="login">
+    <div class="navbar-link">
+      <span>log out</span>
+    </div>
+  </a>
+</div>
+
+<div class="body">
+  <div class="add-post-container">
+    <input type="text" ng-model="item.title" class="post-item-title" placeholder="write your post's title">
+    <textarea type="text" ng-model="item.summery" class="post-item-summery" placeholder="write your post's summery"></textarea>
+    <textarea type="text" ng-model="item.text" class="post-item-text" placeholder="write your post's text"></textarea>
+
+
+    <button class="add-post-button" ng-click="addPost()">Add Post</button>
+  </div>
+</div>

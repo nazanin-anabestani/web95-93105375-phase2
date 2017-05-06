@@ -1,0 +1,269 @@
+@import "_variables.scss";
+@import "_size.scss";
+@import "body";
+.dark-row{
+  background-color: $panel-background;
+  width: 100%;
+  position: relative;
+  float: right;
+  height: auto;
+}
+.cover{
+  width: 100%;
+  position: relative;
+  height: auto;
+  right: 0;
+  left:0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.cover-image{
+  height: auto;
+  width: 100%;
+  position: relative;
+  opacity: 0.7;
+}
+
+.profile-name{
+  font-size: 5vw;
+  color: $primary;
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+
+}
+
+.body{
+  padding: 0 !important;
+}
+
+.profile-desc{
+  background-color: $panel-background;
+  width: 100%;
+  float: right;
+  font-size: 1.5vw;
+}
+
+.profile-image{
+  position: relative;
+  margin: -10% 0;
+  @extend .offset-1;
+  float: right;
+  width: 15vw;
+  height: 15vw;
+
+  img{
+    opacity: 0.95;
+    width: 100%;
+    float: right;
+    top: 5%;
+    position: relative;
+    border-radius: 50%;
+    border: $primary solid 2px;
+  }
+}
+
+.profile-bio{
+  position: relative;
+  @extend .size-5;
+  @extend .offset-45;
+  @extend .size;
+  margin: 4% 0;
+  color: $light-white;
+  line-height: 150%;
+}
+
+.profile-social{
+  background-color: transparent;
+  width: 40%;
+  height: auto;
+  //height: 15vw;
+  float: right;
+  position: relative;
+  padding-top: 0;
+}
+
+.social-item{
+  @extend .size-35;
+  @extend .size;
+  right: 10%;
+  height: 6.55vw;
+  margin: 1.35vw 1vw 0 1vw;
+  position: relative;
+  background-color: $panel-background;
+  color: $white;
+  span{
+    position: relative;
+    height: auto;
+    margin: 5% 0;
+    padding: 5% 0;
+    line-height: 100%;
+    font-size: 4vw;
+    cursor: pointer;
+    color: $white;
+    text-decoration: none;
+  }
+  text-align: center;
+  vertical-align: middle;
+  &:hover{
+    background-color: $white-panel-background;
+    span {color: $primary;}
+  }
+}
+
+.profile-resume{
+  background-color: $white-panel-background;
+  width: 100%;
+  height: auto;
+  float: right;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.resume-font-size{
+  font-size: 1.5vw;
+}
+.profile-resume-download-text{
+  position: relative;
+  @extend .size-4;
+  @extend .size;
+  @extend .resume-font-size;
+  right: -40%;
+  margin: 0.5% 0 2% 0;
+  padding: 0 2%;
+
+
+  color: $light-white;
+  a{
+    color: $primary;
+    cursor: pointer;
+    &:hover{
+      color: $dark-red;
+    }
+  }
+}
+
+.profile-title{
+  font-size: 5vw;
+  color: $primary;
+  position: relative;
+  margin: 1% 6%;
+
+
+}
+
+.profile-resume-summary{
+  position: relative;
+  @extend .size-5;
+  @extend .offset-45;
+  @extend .size;
+  @extend .resume-font-size;
+  margin: 0.5% 0 2% 0;
+  padding: 0 2%;
+  color: $white;
+  line-height: 150%;
+}
+
+.profile-contact{
+  background-color: transparent;
+  width: 60%;
+  height: auto;
+  float: left;
+  position: relative;
+  left: 5%;
+}
+
+.contact-item{
+  left: 11%;
+  margin: 0.5vw;
+  padding: 1% 1% 1% 10%;
+  position: relative;
+  background-color: $panel-background;
+  border: none;
+  color: $white;
+  display: inline-block;
+  width: 100%;
+}
+
+.contact-item-inner{
+  margin: 1vw 1vw;
+  float: left;
+  .contact-item{
+    font-size: 1vw;
+  }
+}
+.info{
+  @extend .size-45;
+  @extend .contact-item-inner;
+  .contact-item{
+    height: 4vw;
+  }
+
+
+}
+.message{
+  @extend  .size-35;
+  @extend .contact-item-inner;
+  .contact-item{
+    height: 9vw;
+  }
+}
+
+.contact-send{
+  @extend .size-35;
+  @extend .contact-item-inner;
+  background-color: $primary;
+  margin: 0.5vw;
+  font-size: 1vw;
+  padding: 1% 1% 1% 10%;
+  text-align: left;
+  position: relative;
+  border: none;
+  color: $gray;
+  display: inline-block;
+  width: 100%;
+  height: 4vw;
+  left: 11%;
+  cursor: pointer;
+  &:hover{
+    background-color: $dark-red;
+  }
+  &:focus{
+    outline: none;
+    opacity: 0.9;
+  }
+}
+.profile-footer{
+  padding: 2% 0;
+  width: 100%;
+  background-color: $white-panel-background;
+  position: relative;
+  float: right;
+  height: auto;
+}
+
+.profile-gallery{
+  @extend .dark-row;
+}
+.profile-gallery-container{
+  overflow: hidden;
+}
+.profile-photos{
+  width: 100%;
+  padding: 2% 0;
+  position: relative;
+  left: -5%;
+
+  img{
+    position: relative;
+    @extend .size-2;
+    float: right;
+    height: auto;
+    //height: 30%;
+    margin: 2% 3%;
+    right: 13%;
+  }
+}

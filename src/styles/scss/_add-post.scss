@@ -1,0 +1,66 @@
+@import "body";
+@import "variables";
+@import "animation";
+
+.post-item-title{
+  background-color: $panel-background;
+  width: 56vw;
+  height: 4vw;
+  color: $white;
+  border: none;
+  display: block;
+  margin: 1vw 3vw;
+  padding: 1% 5%;
+}
+
+.post-item-summery{
+  background-color: $panel-background;
+  width: 56vw;
+  height: 8vw;
+  color: $white;
+  border: none;
+  display: block;
+  margin: 1vw 3vw;
+  padding: 3% 5%;
+}
+
+.post-item-text{
+  background-color: $panel-background;
+  width: 56vw;
+  height: 20vw;
+  color: $white;
+  border: none;
+  display: block;
+  margin: 1vw 3vw;
+  padding: 5% 5%;
+}
+
+
+.add-post-button{
+  border: none;
+  background-color: $primary;
+  color: $gray;
+  width: 63vw;
+  height: 4vw;
+  margin: 1vw 3vw;
+  cursor: pointer;
+  &:hover{
+    background-color: $dark-red;
+  }
+  &:focus{
+    outline: none;
+    opacity: 0.9;
+  }
+
+}
+
+.add-post-container{
+  background-color: $panel-background;
+  border: none;
+  padding: 3vw 1vw;
+  width: 70%;
+  height: auto;
+  left: 15%;
+  position: relative;
+  margin-top: 10%;
+}
